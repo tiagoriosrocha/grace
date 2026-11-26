@@ -104,21 +104,3 @@ python analysis/run_recorded.py --run article_20261112_100731_338092 --device cp
 Repeat for the names in `provenance/runs.json`. It creates a fresh output directory
 and does not reuse or replace archived runs. The helper has been syntax-checked;
 ML training and GPU execution were not rerun during this packaging task.
-
-## Scope and availability
-
-The archive supports verification of the saved predictions and reexecution from
-the supplied graph exports. These are grouped internal partitions, not official
-benchmark test scores. KGAT-style and GMN-style are protocol-specific adaptations.
-
-Pretrained weights, large feature caches and fitted checkpoints are not bundled.
-Most selected run directories do not contain neural checkpoints locally; the
-per-run inventory distinguishes unavailable files from deliberately omitted ones.
-Graph extraction prompts, exact extraction code/version and generation logs have
-not yet been tied to these exports. Consequently regeneration from raw benchmark
-texts is not established by this package. See `docs/REPRODUCIBILITY.md`.
-
-Dataset terms, third-party notices and a project license must be settled before
-public redistribution. This preparation does not assign a new license to the data
-or copied code. `docs/DATA_DISTRIBUTION.md` describes separating large data assets
-from the code repository without changing their names or hashes.
