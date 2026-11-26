@@ -1,0 +1,5 @@
+{
+  "train_distinct": 4883,
+  "categorical_kept": 256,
+  "tail_policy": "Categoria UNK; embedding textual preservado para TODAS as relações."
+}

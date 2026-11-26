@@ -1,0 +1,105 @@
+{
+  "input": 12967,
+  "sampled_input": 12967,
+  "sample_fraction": 1.0,
+  "eligible": 11819,
+  "excluded": 1148,
+  "coverage": 0.9114675715277242,
+  "input_sha256": "2de9bf90ecdfa4e20613e915d55eb39f07a8283a3ea1d8c2fcec4d932bc5b38e",
+  "sanitization": {
+    "excluded_node_types": [
+      "textsummary",
+      "textdocument",
+      "documentchunk"
+    ],
+    "claim": {
+      "graphs": 12967,
+      "nodes_before": 93399,
+      "nodes_after": 54498,
+      "nodes_removed": 38901,
+      "edges_before": 99479,
+      "edges_after": 44840,
+      "edges_removed": 54639,
+      "empty_after": 3
+    },
+    "evidence": {
+      "graphs": 12967,
+      "nodes_before": 203091,
+      "nodes_after": 164174,
+      "nodes_removed": 38917,
+      "edges_before": 360822,
+      "edges_after": 221972,
+      "edges_removed": 138850,
+      "empty_after": 0
+    }
+  },
+  "coverage_by_label": {
+    "SUPPORTS": {
+      "input": 6485,
+      "eligible": 5912,
+      "coverage": 0.9116422513492676
+    },
+    "REFUTES": {
+      "input": 6482,
+      "eligible": 5907,
+      "coverage": 0.9112928108608455
+    }
+  },
+  "roles": [
+    {
+      "evaluation_role": "test",
+      "label": 0,
+      "n": 1206
+    },
+    {
+      "evaluation_role": "test",
+      "label": 1,
+      "n": 1169
+    },
+    {
+      "evaluation_role": "train",
+      "label": 0,
+      "n": 4012
+    },
+    {
+      "evaluation_role": "train",
+      "label": 1,
+      "n": 4003
+    },
+    {
+      "evaluation_role": "validation",
+      "label": 0,
+      "n": 689
+    },
+    {
+      "evaluation_role": "validation",
+      "label": 1,
+      "n": 740
+    }
+  ],
+  "graph_edges": {
+    "claim": {
+      "max": 67,
+      "median": 3.0,
+      "p95": 6.0
+    },
+    "evidence": {
+      "max": 177,
+      "median": 13.0,
+      "p95": 41.0
+    }
+  },
+  "split_groups": {
+    "mode": "claim_and_evidence_disjoint_shared_entities",
+    "groups": 10568,
+    "largest_group": 10,
+    "cross_role_claims": 0,
+    "entity_overlap_allowed": true,
+    "distinct_evidence_groups": 10681,
+    "cross_role_evidence_groups": 0,
+    "distinct_entities": 33598,
+    "cross_role_entities": 10900
+  },
+  "test_scope": "Divisão interna agrupada do arquivo selecionado; não é o teste oficial do dataset.",
+  "empty_evidence_policy": "Excluir originais vazios e relatar cobertura; vazio sintético só em diagnóstico."
+}

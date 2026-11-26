@@ -1,0 +1,908 @@
+[
+  {
+    "dataset": "factkg",
+    "role": "comparison",
+    "variant": "full",
+    "source_project": "proposta-tese-alternativa-5-comparacao-concorrentes",
+    "run": "article_20261111_143257_949589",
+    "snapshot": "comparison",
+    "models": [
+      "text_tfidf",
+      "graph_pair_transformer",
+      "kgat_style",
+      "gmn_style",
+      "relational_gnn"
+    ],
+    "path": "results/comparison/article_20261111_143257_949589",
+    "input_sha256": "8e1ac0ac68562019b3f7e011ed8ed4f287d2a316e13a14cc3ce251795bf6a5e6",
+    "split_sha256": "5826b442e33de71adbbf0482b8b536c499b7d7159d2f79f946ffa299c54bf1aa",
+    "manifest_sha256": "f272b927ff136fcf1024843dbace0b7e1fdf3bd8bd3538d9084ec7dc9963e2ee",
+    "predictions_sha256": "c8eb6c7b78c3a57ae95a3253afa2abbd8596ec3d0af5747dfe94deeb73a0aae5",
+    "omitted_artifacts": [
+      {
+        "file": "aggregator.joblib",
+        "bytes": 3332
+      },
+      {
+        "file": "claim_features.csv",
+        "bytes": 22785734
+      },
+      {
+        "file": "coefficients.json",
+        "bytes": 1626
+      },
+      {
+        "file": "local_metrics.json",
+        "bytes": 833
+      },
+      {
+        "file": "local_predictions.csv",
+        "bytes": 8208865
+      },
+      {
+        "file": "local_protocol.json",
+        "bytes": 427
+      },
+      {
+        "file": "matching_nli_21.joblib",
+        "bytes": 3385
+      },
+      {
+        "file": "matching_nli_42.joblib",
+        "bytes": 3385
+      },
+      {
+        "file": "matching_nli_7.joblib",
+        "bytes": 3385
+      },
+      {
+        "file": "nli_info_local.json",
+        "bytes": 324
+      },
+      {
+        "file": "selection.json",
+        "bytes": 7342
+      },
+      {
+        "file": "text_tfidf_21.joblib",
+        "bytes": 2407908
+      },
+      {
+        "file": "text_tfidf_42.joblib",
+        "bytes": 2407908
+      },
+      {
+        "file": "text_tfidf_7.joblib",
+        "bytes": 2407908
+      },
+      {
+        "file": "x23_data_audit.json",
+        "bytes": 317
+      }
+    ],
+    "available_neural_checkpoints": []
+  },
+  {
+    "dataset": "hover",
+    "role": "comparison",
+    "variant": "full",
+    "source_project": "proposta-tese-alternativa-5-comparacao-concorrentes",
+    "run": "article_20261112_115954_166237",
+    "snapshot": "comparison",
+    "models": [
+      "kgat_style",
+      "gmn_style",
+      "relational_gnn"
+    ],
+    "path": "results/comparison/article_20261112_115954_166237",
+    "input_sha256": "b99ccc3d278f626d6f76b10835c20d8011171a92812d964f6b7f8120b33f13a5",
+    "split_sha256": "9f5d320a27ab177eb2e7917bad69a6d17b09330bd52624e3bf73cef518c0dcfb",
+    "manifest_sha256": "21d282cfe61accf2824205dcb87dff4ec87885b09bed975cc92e797025791c89",
+    "predictions_sha256": "151dd61ecfb7b509f44f79296fb899f7faf0ac4116b5f9ad58f2c48040bdf361",
+    "omitted_artifacts": [],
+    "available_neural_checkpoints": []
+  },
+  {
+    "dataset": "fever",
+    "role": "comparison",
+    "variant": "full",
+    "source_project": "proposta-tese-alternativa-5-comparacao-concorrentes",
+    "run": "article_20261112_100731_338092",
+    "snapshot": "comparison",
+    "models": [
+      "kgat_style",
+      "gmn_style",
+      "relational_gnn"
+    ],
+    "path": "results/comparison/article_20261112_100731_338092",
+    "input_sha256": "2de9bf90ecdfa4e20613e915d55eb39f07a8283a3ea1d8c2fcec4d932bc5b38e",
+    "split_sha256": "322a9b804ef65ede42a1801592f198a2243ad35ae1b8f398afc29fb4ac1887a9",
+    "manifest_sha256": "f51a78bed17334ec375a5f38f44bb9bb72bc038e278474e47995bf08274f76dc",
+    "predictions_sha256": "2d6e2b749f5715bbad37fcfc774549279ea227566f1a9a14f4a5fcb59335b2f5",
+    "omitted_artifacts": [],
+    "available_neural_checkpoints": []
+  },
+  {
+    "dataset": "feverous",
+    "role": "comparison",
+    "variant": "full",
+    "source_project": "proposta-tese-alternativa-5-comparacao-concorrentes",
+    "run": "article_20261112_105648_329300",
+    "snapshot": "comparison",
+    "models": [
+      "kgat_style",
+      "gmn_style",
+      "relational_gnn"
+    ],
+    "path": "results/comparison/article_20261112_105648_329300",
+    "input_sha256": "0a0ff0026b41aa1151ca58afcbaccec5b4083fd8b4ff1e3f9ff4d476ef44b3d4",
+    "split_sha256": "2a248227ea3e16066a5ec1dcb5f11ca222facfcce6fb1f6d12e7416fc8ba8ff2",
+    "manifest_sha256": "2e6268874803bfc9dc02163d5ccc08cb11f5a8a3b30eefbf22f9187ba5fbb050",
+    "predictions_sha256": "db58ef6b7881d3edf1c74526b7dd3af0ff845cbbf9f38facc0e06e01aae1b3ee",
+    "omitted_artifacts": [],
+    "available_neural_checkpoints": []
+  },
+  {
+    "dataset": "hover",
+    "role": "legacy_baselines",
+    "variant": "baseline",
+    "source_project": "proposta-tese-alternativa-5",
+    "run": "article_20261005_163927_073282",
+    "snapshot": "legacy_baselines",
+    "models": [
+      "text_tfidf",
+      "graph_pair_transformer"
+    ],
+    "path": "results/legacy_baselines/article_20261005_163927_073282",
+    "input_sha256": "b99ccc3d278f626d6f76b10835c20d8011171a92812d964f6b7f8120b33f13a5",
+    "split_sha256": "9f5d320a27ab177eb2e7917bad69a6d17b09330bd52624e3bf73cef518c0dcfb",
+    "manifest_sha256": "d259f33ca406891e1b66d76e444854ea7114eb890684357fdef94e79f9a81715",
+    "predictions_sha256": "a2bf222d7bfdd7c0f05f4f0b222dfec96e388e572fbc162f03fb3eb2164a11b4",
+    "omitted_artifacts": [
+      {
+        "file": "aggregator.joblib",
+        "bytes": 3332
+      },
+      {
+        "file": "claim_features.csv",
+        "bytes": 8914129
+      },
+      {
+        "file": "claim_tokens/hidden.npy",
+        "bytes": 4296278144
+      },
+      {
+        "file": "claim_tokens/index.json",
+        "bytes": 20265280
+      },
+      {
+        "file": "coefficients.json",
+        "bytes": 1644
+      },
+      {
+        "file": "features.pt",
+        "bytes": 495177456
+      },
+      {
+        "file": "features_complete.json",
+        "bytes": 22
+      },
+      {
+        "file": "local_candidates.jsonl",
+        "bytes": 256931029
+      },
+      {
+        "file": "local_decisions.jsonl",
+        "bytes": 263610213
+      },
+      {
+        "file": "local_metrics.json",
+        "bytes": 831
+      },
+      {
+        "file": "local_predictions.csv",
+        "bytes": 2743629
+      },
+      {
+        "file": "local_protocol.json",
+        "bytes": 427
+      },
+      {
+        "file": "matching_nli_21.joblib",
+        "bytes": 3385
+      },
+      {
+        "file": "matching_nli_42.joblib",
+        "bytes": 3385
+      },
+      {
+        "file": "matching_nli_7.joblib",
+        "bytes": 3385
+      },
+      {
+        "file": "matching_nli_features.csv",
+        "bytes": 7215790
+      },
+      {
+        "file": "metrics_partial.csv",
+        "bytes": 3993
+      },
+      {
+        "file": "models/claim_evidence_attention/claim_evidence_attention_21.json",
+        "bytes": 252
+      },
+      {
+        "file": "models/claim_evidence_attention/claim_evidence_attention_21.pt",
+        "bytes": 2708233
+      },
+      {
+        "file": "models/claim_evidence_attention/claim_evidence_attention_42.json",
+        "bytes": 251
+      },
+      {
+        "file": "models/claim_evidence_attention/claim_evidence_attention_42.pt",
+        "bytes": 2708233
+      },
+      {
+        "file": "models/claim_evidence_attention/claim_evidence_attention_7.json",
+        "bytes": 251
+      },
+      {
+        "file": "models/claim_evidence_attention/claim_evidence_attention_7.pt",
+        "bytes": 2708233
+      },
+      {
+        "file": "models/claim_evidence_attention/history_claim_evidence_attention_21.csv",
+        "bytes": 316
+      },
+      {
+        "file": "models/claim_evidence_attention/history_claim_evidence_attention_42.csv",
+        "bytes": 399
+      },
+      {
+        "file": "models/claim_evidence_attention/history_claim_evidence_attention_7.csv",
+        "bytes": 394
+      },
+      {
+        "file": "models/graph_pair_transformer_21/config.json",
+        "bytes": 687
+      },
+      {
+        "file": "models/graph_pair_transformer_21/history.csv",
+        "bytes": 70
+      },
+      {
+        "file": "models/graph_pair_transformer_21/model.safetensors",
+        "bytes": 437958648
+      },
+      {
+        "file": "models/graph_pair_transformer_21/special_tokens_map.json",
+        "bytes": 125
+      },
+      {
+        "file": "models/graph_pair_transformer_21/tokenizer.json",
+        "bytes": 711649
+      },
+      {
+        "file": "models/graph_pair_transformer_21/tokenizer_config.json",
+        "bytes": 1221
+      },
+      {
+        "file": "models/graph_pair_transformer_21/training.json",
+        "bytes": 137
+      },
+      {
+        "file": "models/graph_pair_transformer_21/truncation.json",
+        "bytes": 147
+      },
+      {
+        "file": "models/graph_pair_transformer_21/vocab.txt",
+        "bytes": 231508
+      },
+      {
+        "file": "models/graph_pair_transformer_42/config.json",
+        "bytes": 687
+      },
+      {
+        "file": "models/graph_pair_transformer_42/history.csv",
+        "bytes": 70
+      },
+      {
+        "file": "models/graph_pair_transformer_42/model.safetensors",
+        "bytes": 437958648
+      },
+      {
+        "file": "models/graph_pair_transformer_42/special_tokens_map.json",
+        "bytes": 125
+      },
+      {
+        "file": "models/graph_pair_transformer_42/tokenizer.json",
+        "bytes": 711649
+      },
+      {
+        "file": "models/graph_pair_transformer_42/tokenizer_config.json",
+        "bytes": 1221
+      },
+      {
+        "file": "models/graph_pair_transformer_42/training.json",
+        "bytes": 137
+      },
+      {
+        "file": "models/graph_pair_transformer_42/truncation.json",
+        "bytes": 147
+      },
+      {
+        "file": "models/graph_pair_transformer_42/vocab.txt",
+        "bytes": 231508
+      },
+      {
+        "file": "models/graph_pair_transformer_7/config.json",
+        "bytes": 687
+      },
+      {
+        "file": "models/graph_pair_transformer_7/history.csv",
+        "bytes": 70
+      },
+      {
+        "file": "models/graph_pair_transformer_7/model.safetensors",
+        "bytes": 437958648
+      },
+      {
+        "file": "models/graph_pair_transformer_7/special_tokens_map.json",
+        "bytes": 125
+      },
+      {
+        "file": "models/graph_pair_transformer_7/tokenizer.json",
+        "bytes": 711649
+      },
+      {
+        "file": "models/graph_pair_transformer_7/tokenizer_config.json",
+        "bytes": 1221
+      },
+      {
+        "file": "models/graph_pair_transformer_7/training.json",
+        "bytes": 136
+      },
+      {
+        "file": "models/graph_pair_transformer_7/truncation.json",
+        "bytes": 147
+      },
+      {
+        "file": "models/graph_pair_transformer_7/vocab.txt",
+        "bytes": 231508
+      },
+      {
+        "file": "models/relational_gnn/history_relational_gnn_21.csv",
+        "bytes": 357
+      },
+      {
+        "file": "models/relational_gnn/history_relational_gnn_42.csv",
+        "bytes": 395
+      },
+      {
+        "file": "models/relational_gnn/history_relational_gnn_7.csv",
+        "bytes": 397
+      },
+      {
+        "file": "models/relational_gnn/relational_gnn_21.json",
+        "bytes": 243
+      },
+      {
+        "file": "models/relational_gnn/relational_gnn_21.pt",
+        "bytes": 4726347
+      },
+      {
+        "file": "models/relational_gnn/relational_gnn_42.json",
+        "bytes": 243
+      },
+      {
+        "file": "models/relational_gnn/relational_gnn_42.pt",
+        "bytes": 4726347
+      },
+      {
+        "file": "models/relational_gnn/relational_gnn_7.json",
+        "bytes": 242
+      },
+      {
+        "file": "models/relational_gnn/relational_gnn_7.pt",
+        "bytes": 4726347
+      },
+      {
+        "file": "nli_info_local.json",
+        "bytes": 324
+      },
+      {
+        "file": "pairs.jsonl",
+        "bytes": 205339485
+      },
+      {
+        "file": "predictions_partial.csv",
+        "bytes": 8809740
+      },
+      {
+        "file": "selection.json",
+        "bytes": 7346
+      },
+      {
+        "file": "text_index.json",
+        "bytes": 2887224
+      },
+      {
+        "file": "text_tfidf_21.joblib",
+        "bytes": 2418788
+      },
+      {
+        "file": "text_tfidf_42.joblib",
+        "bytes": 2418788
+      },
+      {
+        "file": "text_tfidf_7.joblib",
+        "bytes": 2418788
+      },
+      {
+        "file": "x23_data_audit.json",
+        "bytes": 318
+      },
+      {
+        "file": "x23_graphs.pt",
+        "bytes": 441721773
+      }
+    ],
+    "available_neural_checkpoints": [
+      "models/claim_evidence_attention/claim_evidence_attention_42.pt",
+      "models/claim_evidence_attention/claim_evidence_attention_21.pt",
+      "models/claim_evidence_attention/claim_evidence_attention_7.pt",
+      "models/relational_gnn/relational_gnn_42.pt",
+      "models/relational_gnn/relational_gnn_21.pt",
+      "models/relational_gnn/relational_gnn_7.pt"
+    ]
+  },
+  {
+    "dataset": "fever",
+    "role": "legacy_baselines",
+    "variant": "baseline",
+    "source_project": "proposta-tese-alternativa-5",
+    "run": "article_20261008_093030_038267",
+    "snapshot": "legacy_baselines",
+    "models": [
+      "text_tfidf",
+      "graph_pair_transformer"
+    ],
+    "path": "results/legacy_baselines/article_20261008_093030_038267",
+    "input_sha256": "2de9bf90ecdfa4e20613e915d55eb39f07a8283a3ea1d8c2fcec4d932bc5b38e",
+    "split_sha256": "322a9b804ef65ede42a1801592f198a2243ad35ae1b8f398afc29fb4ac1887a9",
+    "manifest_sha256": "8eec29da862272074f00fe77b1e5774d1f7bdf2f46b9ac9ece8851b24eb6ef8f",
+    "predictions_sha256": "79a7cc878dc7032932e33b2db4c0a3fbd0741dcf7abcf5a898eb96ac625038e2",
+    "omitted_artifacts": [
+      {
+        "file": "aggregator.joblib",
+        "bytes": 3332
+      },
+      {
+        "file": "claim_features.csv",
+        "bytes": 4276330
+      },
+      {
+        "file": "coefficients.json",
+        "bytes": 1626
+      },
+      {
+        "file": "local_metrics.json",
+        "bytes": 828
+      },
+      {
+        "file": "local_predictions.csv",
+        "bytes": 1314186
+      },
+      {
+        "file": "local_protocol.json",
+        "bytes": 427
+      },
+      {
+        "file": "matching_nli_21.joblib",
+        "bytes": 3385
+      },
+      {
+        "file": "matching_nli_42.joblib",
+        "bytes": 3385
+      },
+      {
+        "file": "matching_nli_7.joblib",
+        "bytes": 3385
+      },
+      {
+        "file": "nli_info_local.json",
+        "bytes": 323
+      },
+      {
+        "file": "selection.json",
+        "bytes": 7331
+      },
+      {
+        "file": "text_tfidf_21.joblib",
+        "bytes": 2483204
+      },
+      {
+        "file": "text_tfidf_42.joblib",
+        "bytes": 2483204
+      },
+      {
+        "file": "text_tfidf_7.joblib",
+        "bytes": 2483204
+      },
+      {
+        "file": "x23_data_audit.json",
+        "bytes": 319
+      }
+    ],
+    "available_neural_checkpoints": []
+  },
+  {
+    "dataset": "feverous",
+    "role": "legacy_baselines",
+    "variant": "baseline",
+    "source_project": "proposta-tese-alternativa-5",
+    "run": "article_20261006_085515_184197",
+    "snapshot": "legacy_baselines",
+    "models": [
+      "text_tfidf",
+      "graph_pair_transformer"
+    ],
+    "path": "results/legacy_baselines/article_20261006_085515_184197",
+    "input_sha256": "0a0ff0026b41aa1151ca58afcbaccec5b4083fd8b4ff1e3f9ff4d476ef44b3d4",
+    "split_sha256": "2a248227ea3e16066a5ec1dcb5f11ca222facfcce6fb1f6d12e7416fc8ba8ff2",
+    "manifest_sha256": "c92f5fb0c30aee1dc777b7a9f1604b044796a6dc1e7b73a84cd6860d74cd98a7",
+    "predictions_sha256": "099dfc0f245e34bcf95942f13ce1607f80f7f8a3d51d7bc1336db81ca2b718e3",
+    "omitted_artifacts": [
+      {
+        "file": "aggregator.joblib",
+        "bytes": 3332
+      },
+      {
+        "file": "claim_features.csv",
+        "bytes": 4999905
+      },
+      {
+        "file": "coefficients.json",
+        "bytes": 1641
+      },
+      {
+        "file": "local_metrics.json",
+        "bytes": 829
+      },
+      {
+        "file": "local_predictions.csv",
+        "bytes": 1428480
+      },
+      {
+        "file": "local_protocol.json",
+        "bytes": 427
+      },
+      {
+        "file": "matching_nli_21.joblib",
+        "bytes": 3385
+      },
+      {
+        "file": "matching_nli_42.joblib",
+        "bytes": 3385
+      },
+      {
+        "file": "matching_nli_7.joblib",
+        "bytes": 3385
+      },
+      {
+        "file": "nli_info_local.json",
+        "bytes": 324
+      },
+      {
+        "file": "selection.json",
+        "bytes": 7341
+      },
+      {
+        "file": "text_tfidf_21.joblib",
+        "bytes": 2422996
+      },
+      {
+        "file": "text_tfidf_42.joblib",
+        "bytes": 2422996
+      },
+      {
+        "file": "text_tfidf_7.joblib",
+        "bytes": 2422996
+      },
+      {
+        "file": "x23_data_audit.json",
+        "bytes": 318
+      }
+    ],
+    "available_neural_checkpoints": []
+  },
+  {
+    "dataset": "factkg",
+    "role": "ablation",
+    "variant": "no-condition-aggregation",
+    "source_project": "proposta-tese-alternativa-5-ablacoes",
+    "run": "ablation_no-condition-aggregation_article_20261115_051047_478060",
+    "snapshot": "ablation",
+    "models": [
+      "relational_gnn"
+    ],
+    "path": "results/ablation/ablation_no-condition-aggregation_article_20261115_051047_478060",
+    "input_sha256": "8e1ac0ac68562019b3f7e011ed8ed4f287d2a316e13a14cc3ce251795bf6a5e6",
+    "split_sha256": "5826b442e33de71adbbf0482b8b536c499b7d7159d2f79f946ffa299c54bf1aa",
+    "manifest_sha256": "19fe87946ee0423a31b9759987124dc0ce30c31db0d6f8a1b976092cd89cb4cf",
+    "predictions_sha256": "e57dba4dac09b6d924f2cb695fb10f92d08a8a602de059430fb7977847abd635",
+    "omitted_artifacts": [],
+    "available_neural_checkpoints": []
+  },
+  {
+    "dataset": "fever",
+    "role": "ablation",
+    "variant": "no-condition-aggregation",
+    "source_project": "proposta-tese-alternativa-5-ablacoes",
+    "run": "ablation_no-condition-aggregation_article_20261115_120651_783068",
+    "snapshot": "ablation",
+    "models": [
+      "relational_gnn"
+    ],
+    "path": "results/ablation/ablation_no-condition-aggregation_article_20261115_120651_783068",
+    "input_sha256": "2de9bf90ecdfa4e20613e915d55eb39f07a8283a3ea1d8c2fcec4d932bc5b38e",
+    "split_sha256": "322a9b804ef65ede42a1801592f198a2243ad35ae1b8f398afc29fb4ac1887a9",
+    "manifest_sha256": "4a8f897f8389ce6cd363c994144f846611e5c8f2e0301341894339a247723b95",
+    "predictions_sha256": "d2e2527d6f5b4fb9f88ad529c02c795309ca8989b21939959b62a3eef3629a1a",
+    "omitted_artifacts": [],
+    "available_neural_checkpoints": []
+  },
+  {
+    "dataset": "feverous",
+    "role": "ablation",
+    "variant": "no-condition-aggregation",
+    "source_project": "proposta-tese-alternativa-5-ablacoes",
+    "run": "ablation_no-condition-aggregation_article_20261115_144041_859133",
+    "snapshot": "ablation",
+    "models": [
+      "relational_gnn"
+    ],
+    "path": "results/ablation/ablation_no-condition-aggregation_article_20261115_144041_859133",
+    "input_sha256": "0a0ff0026b41aa1151ca58afcbaccec5b4083fd8b4ff1e3f9ff4d476ef44b3d4",
+    "split_sha256": "2a248227ea3e16066a5ec1dcb5f11ca222facfcce6fb1f6d12e7416fc8ba8ff2",
+    "manifest_sha256": "8f67d1ce22514f6c3b0f6ab6a5ce71742d21712f1effcb00722e3bfc2f877a57",
+    "predictions_sha256": "59fba4e47282a7879cb0e1da94c11ddf8772ae3f3d341291ceba569c3f77ae13",
+    "omitted_artifacts": [],
+    "available_neural_checkpoints": []
+  },
+  {
+    "dataset": "hover",
+    "role": "ablation",
+    "variant": "no-condition-aggregation",
+    "source_project": "proposta-tese-alternativa-5-ablacoes",
+    "run": "ablation_no-condition-aggregation_article_20261115_185330_947940",
+    "snapshot": "ablation",
+    "models": [
+      "relational_gnn"
+    ],
+    "path": "results/ablation/ablation_no-condition-aggregation_article_20261115_185330_947940",
+    "input_sha256": "b99ccc3d278f626d6f76b10835c20d8011171a92812d964f6b7f8120b33f13a5",
+    "split_sha256": "9f5d320a27ab177eb2e7917bad69a6d17b09330bd52624e3bf73cef518c0dcfb",
+    "manifest_sha256": "f60ebf717c157053d0ce329a92a157d672fe9bfac751bc8f12abd446b3310865",
+    "predictions_sha256": "c91f4fc299f7d21d84c6a97b0b277982f06dcef173cf9604b723ad8897e746e5",
+    "omitted_artifacts": [],
+    "available_neural_checkpoints": []
+  },
+  {
+    "dataset": "factkg",
+    "role": "ablation",
+    "variant": "no-nli",
+    "source_project": "proposta-tese-alternativa-5-ablacoes",
+    "run": "ablation_no-nli_article_20261114_213610_057513",
+    "snapshot": "ablation",
+    "models": [
+      "relational_gnn"
+    ],
+    "path": "results/ablation/ablation_no-nli_article_20261114_213610_057513",
+    "input_sha256": "8e1ac0ac68562019b3f7e011ed8ed4f287d2a316e13a14cc3ce251795bf6a5e6",
+    "split_sha256": "5826b442e33de71adbbf0482b8b536c499b7d7159d2f79f946ffa299c54bf1aa",
+    "manifest_sha256": "1784dc05b7161eafe4987bc0537cf7b0823fa411e8a1500f07632e0a725bb7ab",
+    "predictions_sha256": "b84e1ea5501a87812a6cce45a8d70746c9805dddd5e729d83380e50e55376df3",
+    "omitted_artifacts": [],
+    "available_neural_checkpoints": []
+  },
+  {
+    "dataset": "fever",
+    "role": "ablation",
+    "variant": "no-nli",
+    "source_project": "proposta-tese-alternativa-5-ablacoes",
+    "run": "ablation_no-nli_article_20261115_112729_583521",
+    "snapshot": "ablation",
+    "models": [
+      "relational_gnn"
+    ],
+    "path": "results/ablation/ablation_no-nli_article_20261115_112729_583521",
+    "input_sha256": "2de9bf90ecdfa4e20613e915d55eb39f07a8283a3ea1d8c2fcec4d932bc5b38e",
+    "split_sha256": "322a9b804ef65ede42a1801592f198a2243ad35ae1b8f398afc29fb4ac1887a9",
+    "manifest_sha256": "1fa6aead8a8e94b4a9ddeb1f43d08df2b689efbfa30dc60ee06b6b264a154664",
+    "predictions_sha256": "4e527382eba708bbd95c5dbb5156e95b38074f215a0de48b70ffafa6cda7802f",
+    "omitted_artifacts": [],
+    "available_neural_checkpoints": []
+  },
+  {
+    "dataset": "feverous",
+    "role": "ablation",
+    "variant": "no-nli",
+    "source_project": "proposta-tese-alternativa-5-ablacoes",
+    "run": "ablation_no-nli_article_20261115_133922_908243",
+    "snapshot": "ablation",
+    "models": [
+      "relational_gnn"
+    ],
+    "path": "results/ablation/ablation_no-nli_article_20261115_133922_908243",
+    "input_sha256": "0a0ff0026b41aa1151ca58afcbaccec5b4083fd8b4ff1e3f9ff4d476ef44b3d4",
+    "split_sha256": "2a248227ea3e16066a5ec1dcb5f11ca222facfcce6fb1f6d12e7416fc8ba8ff2",
+    "manifest_sha256": "cfb826c49917dcc7f835360150af7fc0b1081b9fdd0b2d0d78b60dda272c3ac8",
+    "predictions_sha256": "5b57c5e6b346964c726fbeae2dbb1afa72a31396001f99a27c0f2bec67731ddc",
+    "omitted_artifacts": [],
+    "available_neural_checkpoints": []
+  },
+  {
+    "dataset": "hover",
+    "role": "ablation",
+    "variant": "no-nli",
+    "source_project": "proposta-tese-alternativa-5-ablacoes",
+    "run": "ablation_no-nli_article_20261115_171709_250886",
+    "snapshot": "ablation",
+    "models": [
+      "relational_gnn"
+    ],
+    "path": "results/ablation/ablation_no-nli_article_20261115_171709_250886",
+    "input_sha256": "b99ccc3d278f626d6f76b10835c20d8011171a92812d964f6b7f8120b33f13a5",
+    "split_sha256": "9f5d320a27ab177eb2e7917bad69a6d17b09330bd52624e3bf73cef518c0dcfb",
+    "manifest_sha256": "1fe8f3c1695415980744143ba4f0ab5112b6f9fda206db3c64d0129607993406",
+    "predictions_sha256": "ca110e43cb6bc2f28fd58a66948e674101f87ca42c9ba8972fa189df99cda12b",
+    "omitted_artifacts": [],
+    "available_neural_checkpoints": []
+  },
+  {
+    "dataset": "factkg",
+    "role": "ablation",
+    "variant": "no-null",
+    "source_project": "proposta-tese-alternativa-5-ablacoes",
+    "run": "ablation_no-null_article_20261114_133425_599018",
+    "snapshot": "ablation",
+    "models": [
+      "relational_gnn"
+    ],
+    "path": "results/ablation/ablation_no-null_article_20261114_133425_599018",
+    "input_sha256": "8e1ac0ac68562019b3f7e011ed8ed4f287d2a316e13a14cc3ce251795bf6a5e6",
+    "split_sha256": "5826b442e33de71adbbf0482b8b536c499b7d7159d2f79f946ffa299c54bf1aa",
+    "manifest_sha256": "b525b8ffff070507a09eb31ce964b7e4d4e084e25daa9934b5e60cb904b01dbb",
+    "predictions_sha256": "0055df32114778368494e57be91b5ddb77cf4cfbdbd6cb3b76aa43816aa10122",
+    "omitted_artifacts": [],
+    "available_neural_checkpoints": []
+  },
+  {
+    "dataset": "fever",
+    "role": "ablation",
+    "variant": "no-null",
+    "source_project": "proposta-tese-alternativa-5-ablacoes",
+    "run": "ablation_no-null_article_20261115_103707_334721",
+    "snapshot": "ablation",
+    "models": [
+      "relational_gnn"
+    ],
+    "path": "results/ablation/ablation_no-null_article_20261115_103707_334721",
+    "input_sha256": "2de9bf90ecdfa4e20613e915d55eb39f07a8283a3ea1d8c2fcec4d932bc5b38e",
+    "split_sha256": "322a9b804ef65ede42a1801592f198a2243ad35ae1b8f398afc29fb4ac1887a9",
+    "manifest_sha256": "677ebec562a168ca126c51bd84ac48b6edb285f7591af68785e3831ff5fd365c",
+    "predictions_sha256": "16b680a31e00b1350b14b3ef1e2803fb8879a56c8a28341ef4577ecbb6dc3f22",
+    "omitted_artifacts": [],
+    "available_neural_checkpoints": []
+  },
+  {
+    "dataset": "feverous",
+    "role": "ablation",
+    "variant": "no-null",
+    "source_project": "proposta-tese-alternativa-5-ablacoes",
+    "run": "ablation_no-null_article_20261115_123457_635221",
+    "snapshot": "ablation",
+    "models": [
+      "relational_gnn"
+    ],
+    "path": "results/ablation/ablation_no-null_article_20261115_123457_635221",
+    "input_sha256": "0a0ff0026b41aa1151ca58afcbaccec5b4083fd8b4ff1e3f9ff4d476ef44b3d4",
+    "split_sha256": "2a248227ea3e16066a5ec1dcb5f11ca222facfcce6fb1f6d12e7416fc8ba8ff2",
+    "manifest_sha256": "124ee5837e58aae710cfc3225759745b6e6d0cd70becc7085a9a2886d5df0905",
+    "predictions_sha256": "3e37e8f2a4341540b47e0de0bb53596a7e01e749ded8f1afd3444cc094d99187",
+    "omitted_artifacts": [],
+    "available_neural_checkpoints": []
+  },
+  {
+    "dataset": "hover",
+    "role": "ablation",
+    "variant": "no-null",
+    "source_project": "proposta-tese-alternativa-5-ablacoes",
+    "run": "ablation_no-null_article_20261115_151718_641917",
+    "snapshot": "ablation",
+    "models": [
+      "relational_gnn"
+    ],
+    "path": "results/ablation/ablation_no-null_article_20261115_151718_641917",
+    "input_sha256": "b99ccc3d278f626d6f76b10835c20d8011171a92812d964f6b7f8120b33f13a5",
+    "split_sha256": "9f5d320a27ab177eb2e7917bad69a6d17b09330bd52624e3bf73cef518c0dcfb",
+    "manifest_sha256": "e8d395b3e1ea6a68ab807223f6a522ace95592be5f3f43a30c42e8c7ee948b63",
+    "predictions_sha256": "0f80b2316b3c6dfb532eaf058bfef24cd6fd701f33cadfa975c914965ea0303a",
+    "omitted_artifacts": [],
+    "available_neural_checkpoints": []
+  },
+  {
+    "dataset": "factkg",
+    "role": "ablation",
+    "variant": "no-relational-context",
+    "source_project": "proposta-tese-alternativa-5-ablacoes",
+    "run": "ablation_no-relational-context_article_20261114_183335_342182",
+    "snapshot": "ablation",
+    "models": [
+      "relational_gnn"
+    ],
+    "path": "results/ablation/ablation_no-relational-context_article_20261114_183335_342182",
+    "input_sha256": "8e1ac0ac68562019b3f7e011ed8ed4f287d2a316e13a14cc3ce251795bf6a5e6",
+    "split_sha256": "5826b442e33de71adbbf0482b8b536c499b7d7159d2f79f946ffa299c54bf1aa",
+    "manifest_sha256": "8d88fdf2e2f0fef8ae4db85edca55078f9b8704be491edbe077ee9917b9d03b0",
+    "predictions_sha256": "96fa2993d5e278241a03ec0951c5e253b91d0b8b2a61582373fe8627525271ee",
+    "omitted_artifacts": [],
+    "available_neural_checkpoints": []
+  },
+  {
+    "dataset": "fever",
+    "role": "ablation",
+    "variant": "no-relational-context",
+    "source_project": "proposta-tese-alternativa-5-ablacoes",
+    "run": "ablation_no-relational-context_article_20261115_111252_753949",
+    "snapshot": "ablation",
+    "models": [
+      "relational_gnn"
+    ],
+    "path": "results/ablation/ablation_no-relational-context_article_20261115_111252_753949",
+    "input_sha256": "2de9bf90ecdfa4e20613e915d55eb39f07a8283a3ea1d8c2fcec4d932bc5b38e",
+    "split_sha256": "322a9b804ef65ede42a1801592f198a2243ad35ae1b8f398afc29fb4ac1887a9",
+    "manifest_sha256": "78ef07cdf4f980b257259ab784fd372002dcea95d61bf33f17d54b03de831103",
+    "predictions_sha256": "61bce9a659b9b6df2e21699b4b022ef8fa905ffd631090b969b4be10c495dad1",
+    "omitted_artifacts": [],
+    "available_neural_checkpoints": []
+  },
+  {
+    "dataset": "feverous",
+    "role": "ablation",
+    "variant": "no-relational-context",
+    "source_project": "proposta-tese-alternativa-5-ablacoes",
+    "run": "ablation_no-relational-context_article_20261115_131747_633140",
+    "snapshot": "ablation",
+    "models": [
+      "relational_gnn"
+    ],
+    "path": "results/ablation/ablation_no-relational-context_article_20261115_131747_633140",
+    "input_sha256": "0a0ff0026b41aa1151ca58afcbaccec5b4083fd8b4ff1e3f9ff4d476ef44b3d4",
+    "split_sha256": "2a248227ea3e16066a5ec1dcb5f11ca222facfcce6fb1f6d12e7416fc8ba8ff2",
+    "manifest_sha256": "5831c71027bf8283b58e6499176821532e2f653f2c5b055934d2974a549d75de",
+    "predictions_sha256": "620b4bbbbf2c35f93e4ffec4fdf08fb8782cfa4024d374569deb27852afe23ab",
+    "omitted_artifacts": [],
+    "available_neural_checkpoints": []
+  },
+  {
+    "dataset": "hover",
+    "role": "ablation",
+    "variant": "no-relational-context",
+    "source_project": "proposta-tese-alternativa-5-ablacoes",
+    "run": "ablation_no-relational-context_article_20261115_163958_615510",
+    "snapshot": "ablation",
+    "models": [
+      "relational_gnn"
+    ],
+    "path": "results/ablation/ablation_no-relational-context_article_20261115_163958_615510",
+    "input_sha256": "b99ccc3d278f626d6f76b10835c20d8011171a92812d964f6b7f8120b33f13a5",
+    "split_sha256": "9f5d320a27ab177eb2e7917bad69a6d17b09330bd52624e3bf73cef518c0dcfb",
+    "manifest_sha256": "1682ff4b26972769eb3f9da73608a60fd11092d7a5f3375e4ed5dcf2cba052bf",
+    "predictions_sha256": "4e3047e341a1abc6f7153a91a786e02dbe046f6878815c79922343b0461d7aa9",
+    "omitted_artifacts": [],
+    "available_neural_checkpoints": []
+  }
+]

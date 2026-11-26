@@ -1,0 +1,13 @@
+\begin{tabular}{lllll}
+\toprule
+Model & Accuracy & Macro-F1 & Macro-F1 95\% CI & AUC \\
+\midrule
+majority\_baseline & 0.5811 ± 0.0000 & 0.3675 ± 0.0000 & [0.3617, 0.3735] & 0.5000 \\
+text\_tfidf & 0.4903 ± 0.0000 & 0.4820 ± 0.0000 & [0.4674, 0.4958] & 0.4760 \\
+graph\_pair\_transformer & 0.5811 ± 0.0000 & 0.3675 ± 0.0000 & [0.3617, 0.3735] & 0.5643 \\
+matching\_nli & 0.6181 ± 0.0000 & 0.6166 ± 0.0000 & [0.6017, 0.6311] & 0.6712 \\
+relational\_gnn & 0.6120 ± 0.0059 & 0.5971 ± 0.0060 & [0.5851, 0.6094] & 0.6418 \\
+claim\_evidence\_attention & 0.6448 ± 0.0009 & 0.6208 ± 0.0115 & [0.6073, 0.6339] & 0.6861 \\
+local\_factcheck\_pipeline & 0.6106 ± 0.0000 & 0.6100 ± 0.0000 & [0.5947, 0.6244] & 0.6598 \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,8 @@
+{
+  "backend": "transformer",
+  "model": "bert-base-uncased",
+  "resolved_revision": "86b5e0934494bd15c9632b12f734a8a67f723594",
+  "texts": 947054,
+  "truncated_texts": 1,
+  "max_length": 256
+}

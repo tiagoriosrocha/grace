@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "python": "3.14.5",
+  "checksummed_files": 593,
+  "datasets": 4,
+  "selected_runs": 23,
+  "source_hash_checks": 993,
+  "split_hashes": {
+    "factkg": "5826b442e33de71adbbf0482b8b536c499b7d7159d2f79f946ffa299c54bf1aa",
+    "hover": "9f5d320a27ab177eb2e7917bad69a6d17b09330bd52624e3bf73cef518c0dcfb",
+    "fever": "322a9b804ef65ede42a1801592f198a2243ad35ae1b8f398afc29fb4ac1887a9",
+    "feverous": "2a248227ea3e16066a5ec1dcb5f11ca222facfcce6fb1f6d12e7416fc8ba8ff2"
+  },
+  "training_rerun": false
+}

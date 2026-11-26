@@ -1,0 +1,135 @@
+[
+  {
+    "dataset": "factkg",
+    "source_folder": "datasets-convertidos-grafos/factkg/versao_68",
+    "input_sha256": "8e1ac0ac68562019b3f7e011ed8ed4f287d2a316e13a14cc3ce251795bf6a5e6",
+    "files": [
+      {
+        "file": "factkg_68011_20261002_095650_part_1.jsonl",
+        "sha256": "71f110d8e37d40e4581367de6579f9f81586434582148d7eee48181b47de0327",
+        "bytes": 98620199
+      },
+      {
+        "file": "factkg_68011_20261002_095650_part_10.jsonl",
+        "sha256": "7619c8968b6b72d050e2fa691918c23039e9373f984981ccee1a27a0b7d14e98",
+        "bytes": 98965003
+      },
+      {
+        "file": "factkg_68011_20261002_095650_part_11.jsonl",
+        "sha256": "a33ffdadc7bc91bb530e4a397dbe7366d93d6298a300610af5c00cd496372359",
+        "bytes": 98654890
+      },
+      {
+        "file": "factkg_68011_20261002_095650_part_12.jsonl",
+        "sha256": "5105f4eb26774c94807aa79b499082790b088c8f83c129c12b610e661a1d5492",
+        "bytes": 98350439
+      },
+      {
+        "file": "factkg_68011_20261002_095650_part_13.jsonl",
+        "sha256": "46081204b7b54598c2d8888ddaf21b779155e773505e01be649ef937cc75586a",
+        "bytes": 98621849
+      },
+      {
+        "file": "factkg_68011_20261002_095650_part_14.jsonl",
+        "sha256": "b98f4b38760d6e745472754899d4e621b17b0e0c83f37b064389d6c510e66fc9",
+        "bytes": 98761633
+      },
+      {
+        "file": "factkg_68011_20261002_095650_part_15.jsonl",
+        "sha256": "83b6499b7be32cc9376d6b5ff456b57a08123e3f2d5bb5a9dae98c807654af6e",
+        "bytes": 98997716
+      },
+      {
+        "file": "factkg_68011_20261002_095650_part_16.jsonl",
+        "sha256": "ad181bec1d22eb004859720d178308d6ab085ff1bfdbe564b560b5e15f25052c",
+        "bytes": 98591761
+      },
+      {
+        "file": "factkg_68011_20261002_095650_part_17.jsonl",
+        "sha256": "a68cb006de9fccb056d95d68a2485bec928751d1bcc72c9d03f75b64e9c2f256",
+        "bytes": 30046946
+      },
+      {
+        "file": "factkg_68011_20261002_095650_part_2.jsonl",
+        "sha256": "2075b1d27b46fa84bb48381a69ecfca61dad753c7e9d8681342921a7c27c0d5e",
+        "bytes": 98679118
+      },
+      {
+        "file": "factkg_68011_20261002_095650_part_3.jsonl",
+        "sha256": "e73f9063e0096a9b7e7e906bf890939b5f08978376387c9f6f0adb928da6dc65",
+        "bytes": 98565918
+      },
+      {
+        "file": "factkg_68011_20261002_095650_part_4.jsonl",
+        "sha256": "b9759dd50ac8d0b02c488a48eec8bf6c893df8448426fea8d193c9fe354f61de",
+        "bytes": 98736702
+      },
+      {
+        "file": "factkg_68011_20261002_095650_part_5.jsonl",
+        "sha256": "eb951064e5bea2fb1e607be11ca21cb6cff18ebc13ee5fbbe5fb134217d17ca2",
+        "bytes": 98703821
+      },
+      {
+        "file": "factkg_68011_20261002_095650_part_6.jsonl",
+        "sha256": "fd19e2d93419e2afdcd5070443cc1dbe4f58e609cde32671aa61925b729798bc",
+        "bytes": 98933046
+      },
+      {
+        "file": "factkg_68011_20261002_095650_part_7.jsonl",
+        "sha256": "e8d432cb9f7ebd41c6c55708ca22d4b2460728212dad08938552eb32d178e32e",
+        "bytes": 98634780
+      },
+      {
+        "file": "factkg_68011_20261002_095650_part_8.jsonl",
+        "sha256": "64ff4bd82272592c78607342da9e9616e20dd7c2078160e8da7da8ed8cbd8af2",
+        "bytes": 98940395
+      },
+      {
+        "file": "factkg_68011_20261002_095650_part_9.jsonl",
+        "sha256": "d6856dbe0c67e323add0f541930f6ae5836461afb8cf4df2931c6d1056206c72",
+        "bytes": 98948683
+      }
+    ]
+  },
+  {
+    "dataset": "hover",
+    "source_folder": "proposta-tese-alternativa-5/data/hover",
+    "input_sha256": "b99ccc3d278f626d6f76b10835c20d8011171a92812d964f6b7f8120b33f13a5",
+    "files": [
+      {
+        "file": "hover_21987_20260929_165131_part_1.jsonl",
+        "sha256": "cf340cc1e3f90eb5a1d5a0dafe428d17f90a865c32faea66c5400b4192145ff9",
+        "bytes": 98999734
+      },
+      {
+        "file": "hover_21987_20260929_165131_part_2.jsonl",
+        "sha256": "0b0ea17d2444e2cccb1f65a2584880f66caf93541d5a77849b1895f38012c492",
+        "bytes": 83820586
+      }
+    ]
+  },
+  {
+    "dataset": "fever",
+    "source_folder": "proposta-tese-alternativa-5/data/fever",
+    "input_sha256": "2de9bf90ecdfa4e20613e915d55eb39f07a8283a3ea1d8c2fcec4d932bc5b38e",
+    "files": [
+      {
+        "file": "fever_12967_20260925_160807_part_1.jsonl",
+        "sha256": "40140de07724c42009d73c92199446d7e292e23ee0b247681a249d0603a9073f",
+        "bytes": 83814562
+      }
+    ]
+  },
+  {
+    "dataset": "feverous",
+    "source_folder": "proposta-tese-alternativa-5/data/feverous",
+    "input_sha256": "0a0ff0026b41aa1151ca58afcbaccec5b4083fd8b4ff1e3f9ff4d476ef44b3d4",
+    "files": [
+      {
+        "file": "feverous_12989_20260925_160918_part_1.jsonl",
+        "sha256": "2111848e9e770324b6d99bd8f37245f1446e4757c5b9e3f391afc5fceae25286",
+        "bytes": 93037030
+      }
+    ]
+  }
+]

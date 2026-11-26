@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "python": "3.14.5",
+  "selected_runs": 23,
+  "model_seed_combinations": 108,
+  "archived_metric_and_summary_checks": 900,
+  "manuscript_mean_and_sd_cells": 40,
+  "manuscript_ablation_differences": 16,
+  "test_pairing_verified": true,
+  "bootstrap_replicates": 0,
+  "training_rerun": false
+}

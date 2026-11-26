@@ -1,0 +1,19 @@
+{
+  "created": "2026-11-26",
+  "paper_reference": "Artigo_alinhamento_grafos_15_paginas",
+  "selected_runs": 23,
+  "datasets": [
+    "factkg",
+    "hover",
+    "fever",
+    "feverous"
+  ],
+  "snapshots": [
+    "comparison",
+    "ablation",
+    "legacy_baselines"
+  ],
+  "original_files_modified": false,
+  "public_upload_performed": false,
+  "training_rerun": false
+}
