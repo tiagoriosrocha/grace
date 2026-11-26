@@ -13,9 +13,7 @@ Code, converted graph inputs and saved predictions supporting the paper
 | `data/`                         | Four exact input exports.                                                                                                   |
 | `results/`                      | 23 selected original run bundles, with predictions, metrics, splits, configurations and manifests.                          |
 | `analysis/`                     | New publication utilities to verify files and recompute the reported metrics without training.                              |
-| `paper_reference/`              | Original numeric LaTeX tables and the active probability-metric figure from the manuscript.                                 |
 | `provenance/`                   | Input and source hashes, selected runs, artifact inventory and checksums.                                                   |
-| `docs/`                         | Reproduction details, mapping of source projects and remaining limits.                                                      |
 
 The paper uses `text_tfidf` (TF-IDF), `graph_pair_transformer` (Serialized BERT),
 `kgat_style`, `gmn_style` and `relational_gnn` (GRACE). Other systems remain in
